@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="stylesheet.css">
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="./favicon.ico">
+    <title>川上ちゃんねる</title>
+    <!-- ここでFont Awesomeを読み込んでください -->
+    <script src="https://kit.fontawesome.com/3e161cfde5.js" crossorigin="anonymous"></script>
+
+  </head>
+  <body>
+  <!-- ここに書いていく -->
+    <header>
+      <div class="header-wrapper">
+        <img class="cloud" src="img/雲.png" alt="雲" width="100%" height="400px">
+        <h1 class="title">川上　ちゃんねる<i class="fab fa-youtube"></i><br><span>〜川上家３人についての紹介〜</span></h1>
+
+      </div>
+    </header>
+    <!-- ここからメインの記事 -->
+    <div class="main">
+      <!-- ここからめいの記事       -->
+      <div class="mei-wrapper">
+        <div class="page">めいのぺーじ</div>
+        <img src="img/hana.jpg" alt="はな" width="500px">
+        <div class="mei-text">
+          <h2>① できるようになりたいこと（もくひょう）<br>　 バレエのかいてん<br><br>② さいきんはまっていること<br> 　アイロンビーズ、ブランコ</h2>
+        </div>
+      </div>
+
+      <!-- ここからママ -->
+      <div class="mama-wrapper">
+        <div class="page">ままのページ</div>
+        <div class="mama-title">さいきんハマっていること</div>
+        <div class="mama-contents">
+          <div class="mama-a">
+            <h2>① ホームページのさくせい</h2>
+            <img src="img/HTML&CSS.png" alt="HTML&CSS" width="400px">
+          </div>
+          <div class="mama-b">
+            <h2>② ピアノ（ヨルシカ）</h2>
+            <img src="img/ままピアノ.png" alt="ままピアノ" width="400px">
+          </div>
+        </div>
+        <!-- ここからパパ -->
+        <div class="papa-wrapper">
+          <div class="page">パパのページ</div>
+          <div class="papa-contents">
+            <div class="papa-food">
+              <h1>好きなラーメンやさん</h1>
+              <div class="papa-content">
+                <p>　① ラーメンしかた   <span><a href="https://tabelog.com/kanagawa/A1401/A140202/14005215/">詳しくはこちらをクリック</a></span><br><span>　　（画像をクリックすると拡大します）</span></p>
+                <a class="img" href="img/sikata_ra-men.jpg" target="_blank"><img src="img/sikata_ra-men.jpg" width="300" alt="" border="0"></a>
+                <div class="papa-komento">
+                  <p class="saikou">最高です！</p>
+                  <img src="img/papa.png" alt="パパ" width="150px">
+                </div>
+              </div>
+
+              <div class="papa-content">
+                <p>　② 小川軒    <span><a href="https://tabelog.com/tokyo/A1327/A132701/13108701/">詳しくはこちらをクリック</a></span><br><span>　　（画像をクリックすると拡大します）</span></p>
+                <a class="img" href="img/ogawaken_ra-men.jpg" target="_blank"><img src="img/ogawaken_ra-men.jpg" width="300" alt="" border="0"></a>
+                <div class="papa-komento">
+                  <p class="saikou">最高です！</p>
+                  <img src="img/papa.png" alt="パパ" width="150px">
+                </div>
+              </div>
+            </div>
+
+            <div class="papa-nihonsyu">
+              <h1>好きな日本酒</h1>
+              <div class="papa-content">
+                <p>　① 平成三十一年己亥二月四日   <span><a href="http://blog.livedoor.jp/itoshima_chikyu_ya/archives/55744002.html">詳しくはこちらをクリック</a></span><br><span>　　（画像をクリックすると拡大します）</span></p>
+                <!-- <img class="img" src="img/heisei_sake.jpg" alt="酒" width="300px"> -->
+                <a class="img" href="img/heisei_sake.jpg" target="_blank"><img src="img/heisei_sake.jpg" width="300" alt="" border="0"></a>
+                <div class="papa-komento">
+                  <p class="saikou">最高です！</p>
+                  <img src="img/papa.png" alt="パパ" width="150px">
+                </div>
+              </div>
+
+              <div class="papa-content">
+                <p>　② 天晴    <span><a href="https://tabelog.com/tokyo/A1327/A132701/13108701/">詳しくはこちらをクリック</a></span><br><span>　　（画像をクリックすると拡大します）</span></p>
+                <a class="img" href="img/appare_sake.jpg" target="_blank"><img src="img/appare_sake.jpg" width="300" alt="" border="0"></a>
+                  <div class="papa-komento">
+                  <p class="saikou">最高です！</p>
+                  <img src="img/papa.png" alt="パパ" width="150px">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </body>
+</html>
